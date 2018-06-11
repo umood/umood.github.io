@@ -27989,6 +27989,8 @@ cr.getObjectRefTable = function () {
 		cr.system_object.prototype.exps.floor,
 		cr.plugins_.Sprite.prototype.exps.X,
 		cr.plugins_.Sprite.prototype.exps.Y,
+		cr.plugins_.Text.prototype.acts.AppendText,
+		cr.system_object.prototype.exps.newline,
 		cr.plugins_.Sprite.prototype.acts.SetX,
 		cr.plugins_.Sprite.prototype.acts.SetY,
 		cr.plugins_.Mouse.prototype.cnds.OnRelease
