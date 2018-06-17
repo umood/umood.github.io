@@ -27972,15 +27972,16 @@ cr.getObjectRefTable = function () {
 		cr.plugins_.Text,
 		cr.plugins_.Arr,
 		cr.system_object.prototype.cnds.OnLayoutStart,
-		cr.plugins_.Sprite.prototype.acts.SetPos,
+		cr.system_object.prototype.acts.CreateObject,
 		cr.plugins_.Arr.prototype.acts.SetXY,
 		cr.plugins_.Sprite.prototype.acts.SetInstanceVar,
 		cr.system_object.prototype.acts.SaveState,
+		cr.system_object.prototype.cnds.ForEach,
+		cr.plugins_.Sprite.prototype.exps.IID,
 		cr.plugins_.Sprite.prototype.cnds.CompareInstanceVar,
 		cr.behaviors.DragnDrop.prototype.acts.SetEnabled,
 		cr.plugins_.Text.prototype.acts.SetText,
 		cr.plugins_.Button.prototype.cnds.OnClicked,
-		cr.system_object.prototype.acts.RestartLayout,
 		cr.system_object.prototype.acts.LoadState,
 		cr.system_object.prototype.exps.str,
 		cr.plugins_.Mouse.prototype.cnds.IsOverObject,
@@ -27995,7 +27996,7 @@ cr.getObjectRefTable = function () {
 		cr.plugins_.Sprite.prototype.acts.SetY,
 		cr.plugins_.Text.prototype.acts.AppendText,
 		cr.system_object.prototype.exps.newline,
-		cr.plugins_.Mouse.prototype.cnds.OnRelease
+		cr.system_object.prototype.exps.abs
 	];
 };
 
